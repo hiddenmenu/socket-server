@@ -1,6 +1,7 @@
-var express = require('express');
-var http = require('http');
-var app = express();
+var express = require('express'),
+    http = require('http'),
+    app = express();
+redis=require('./libs/redis');
 
 app.server = http.createServer(app);
 io = require('socket.io')(app.server);
@@ -10,8 +11,6 @@ posNS=io.of('/pos');
 
 //알리미 쪽 네임스페이스는 /
 alimiNS=io.of('/');
-
-tmpSid='';
 
 //알리미 부분
 require('./socket/alimi');
