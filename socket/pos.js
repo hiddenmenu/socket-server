@@ -5,7 +5,6 @@ posNS.on('connection', function (socket) {
      소켓의 아이디는 매 연결시마다 바뀔수 있다
      따라서 각 알리미, 포스기에서 보내준 고유 값과 매칭하여 저장해주는 것이 필요하다
      */
-
     socket.on('register', function (incoming) {
         //포스기의 아이디 값을 가져와서 소켓 아이디와 연결
         var storeId=incoming.storeId;

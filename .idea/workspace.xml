@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87e6ea62-0582-4c05-9d4d-75fa97b2a278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/route/index.js" afterPath="$PROJECT_DIR$/route/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/route/order.js" afterPath="$PROJECT_DIR$/route/order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/socket/alimi.js" afterPath="$PROJECT_DIR$/socket/alimi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/socket/pos.js" afterPath="$PROJECT_DIR$/socket/pos.js" />
-    </list>
+    <list default="true" id="87e6ea62-0582-4c05-9d4d-75fa97b2a278" name="Default" comment="" />
     <ignored path="socketweb_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -75,21 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="101" column="54" selection-start-line="101" selection-start-column="54" selection-end-line="101" selection-end-column="54" />
+            <state relative-caret-position="260">
+              <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pos.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/socket/pos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            <state relative-caret-position="90">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -151,10 +139,10 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/socket/alimi.js" />
         <option value="$PROJECT_DIR$/route/order.js" />
-        <option value="$PROJECT_DIR$/socket/pos.js" />
         <option value="$PROJECT_DIR$/libs/redis.js" />
         <option value="$PROJECT_DIR$/route/index.js" />
         <option value="$PROJECT_DIR$/public/map.html" />
+        <option value="$PROJECT_DIR$/socket/pos.js" />
       </list>
     </option>
   </component>
@@ -359,16 +347,16 @@
       <workItem from="1480678742178" duration="9764000" />
       <workItem from="1480943851697" duration="46000" />
       <workItem from="1480993548386" duration="18152000" />
-      <workItem from="1481205191967" duration="7676000" />
+      <workItem from="1481205191967" duration="7858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35638000" />
+    <option name="totallyTimeSpent" value="35820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="132" y="23" width="1548" height="1027" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26981008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -424,14 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/pos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -494,8 +474,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="101" column="54" selection-start-line="101" selection-start-column="54" selection-end-line="101" selection-end-column="54" />
+        <state relative-caret-position="260">
+          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/pos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
