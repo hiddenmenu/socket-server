@@ -14,11 +14,6 @@ ADD . /app
 
 RUN npm install
 
-ARG NODE_ENV=development
-
-#환경변수 NODE_ENV 의 값을 development 로 설정
-ENV NODE_ENV = $NODE_ENV
-
 #가상 머신에 오픈할 포트
 EXPOSE 3000
 
