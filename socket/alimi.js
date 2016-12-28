@@ -10,7 +10,7 @@ alimiNS.on('connection', function(socket){
      */
     socket.on('register', function (incoming) {
         var guid=incoming.data;
-        //guid 로 가게의 아이디 값을 가져와서 소켓 아이디와 연결
+        //TODO guid 로 가게의 아이디 값을 가져와서 소켓 아이디와 연결
         var storeId=1;
         redis.addNewAlimi(socket.id, storeId);
         /*

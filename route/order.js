@@ -92,7 +92,7 @@ router
         redis.checkIfThereIsAlimi(company_id).then(function (result) {
             if (result) {
                 //알리미 상태
-                Emitter.AlimiPongReceiver(tmpSid)
+                Emitter.AlimiPongReceiver(result)
                     .then(function () {
                         /*
                          알리미 살았을 때는
@@ -102,9 +102,9 @@ router
                          */
                         console.log("received pong");
                         if(more_order){
-                            io.of('/').to(tmpSid).emit('led', 'on');
+                            io.of('/').to(result).emit('led', 'on');
                         }else{
-                            io.of('/').to(tmpSid).emit('led', 'off');
+                            io.of('/').to(result).emit('led', 'off');
                         }
                         res.json({result: "success"})
                     })
