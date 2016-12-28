@@ -20,7 +20,7 @@ ARG NODE_ENV=development
 ENV NODE_ENV = $NODE_ENV
 
 #가상 머신에 오픈할 포트
-EXPOSE 2016
+EXPOSE 3000
 
 #컨테이너에서 실행될 명령을 지정
 CMD ["npm", "start"]
