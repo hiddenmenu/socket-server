@@ -63,9 +63,9 @@ function onAlimiDisconnect(storeId){
 /*
  포스기가 새로 연결되었을 때 해당 업체에 등록
  */
-function addNewPos(alimiSocketId, storeId) {
+function addNewPos(SocketId, storeId) {
     return new Promise(function (resolve, reject) {
-        redisClient.set('pos-' + storeId, alimiSocketId, function (err, data) {
+        redisClient.set('pos-' + storeId, SocketId, function (err, data) {
             if(err){
                 reject(err);
             }else{

@@ -86,7 +86,8 @@ router
          - moreOrder 현재 가게에 남은 주문이 있는지 bool
 
          */
-
+        console.log("confirmed:::");
+        console.log(req.body);
         var company_id = req.body.company_id;
         var more_order = req.body.more_order;
         redis.checkIfThereIsAlimi(company_id).then(function (result) {
@@ -113,7 +114,7 @@ router
                          알리미 죽었을 때는
                          1. 먼저 죽었다고 본 api서버에 알리고
                          2. 다시 살아나면(연결되면) 해당 업체의 현재 알리미 상태를 읽어서 불을 켤지 말지 결정한다.
-                         => 죽었다고 판단되는 알리미의 리스트를 관리할 필요가 있음
+
                          */
                         console.log("didnt receive pong");
                         res.json({err: "알리미 죽음", errCode: "DEAD"})
