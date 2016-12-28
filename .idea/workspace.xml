@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../socket-server/.idea/modules.xml" afterPath="$PROJECT_DIR$/../socket-server/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../socket-server/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../socket-server/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../socket-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../socket-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../socket-server/Dockerfile" afterPath="$PROJECT_DIR$/../socket-server/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../socket-server/libs/redis.js" afterPath="$PROJECT_DIR$/../socket-server/libs/redis.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../socket-server/public/map.html" afterPath="$PROJECT_DIR$/../socket-server/public/map.html" />
     </list>
@@ -54,8 +53,8 @@
       <file leaf-file-name="redis.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../socket-server/libs/redis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -376,12 +375,12 @@
       <workItem from="1480993548386" duration="18152000" />
       <workItem from="1481205191967" duration="8076000" />
       <workItem from="1481771262387" duration="1004000" />
-      <workItem from="1482303459871" duration="10015000" />
+      <workItem from="1482303459871" duration="10172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47057000" />
+    <option name="totallyTimeSpent" value="47214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -671,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../socket-server/libs/redis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,9 +1,9 @@
 var redisServer = require('redis');
 var redisClient = (process.env.NODE_ENV=='production'?redisServer.createClient({
-    host: '127.0.0.1',
+    host: 'localhost',
     port: 6379
 }):redisServer.createClient({
-    host: '127.0.0.1',
+    host: 'localhost',
     port: 32769
 }))
 
