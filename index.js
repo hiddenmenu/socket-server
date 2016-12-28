@@ -21,4 +21,11 @@ app.use(require('body-parser').json());
 app.use('/',require('./route/index'));
 app.use('/order',require('./route/order'));
 
-app.server.listen(2016);
+if(process.env.NODE_ENV=='production'){
+    console.log("production");
+    app.server.listen(3000);
+}else{
+    console.log("development");
+    app.server.listen(2016);
+}
+
