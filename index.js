@@ -17,7 +17,7 @@ require('./socket/alimi');
 
 //포스기 부분
 require('./socket/pos');
-
+app.use(require('body-parser').json());
 app.use('/',require('./route/index'));
 app.use('/order',require('./route/order'));
 

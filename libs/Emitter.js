@@ -3,7 +3,7 @@ var PingPongEmitter= new events.EventEmitter();
 
 //알리미의 소켓 아이디를 인자로 받음
 function AlimiPongReceiver(sid){
-    io.of('/').to(sid).emit('PING', 'ponging');
+    io.of('/').to(sid).emit('PING', 'pinging');
     return new Promise(function(resolve, reject){
         var emitter=require('./Emitter').PingPongEmitter;
         var timeout=setTimeout(function(){
@@ -22,7 +22,7 @@ function AlimiPongReceiver(sid){
 
 //포스의 소켓 아이디를 인자로 받음
 function PosPongReceiver(sid){
-    io.of('/pos').to(sid).emit('PING', 'ponging');
+    io.of('/pos').to(sid).emit('PING', 'pinging');
     return new Promise(function(resolve, reject){
         var emitter=require('./Emitter').PingPongEmitter;
         var timeout=setTimeout(function(){
